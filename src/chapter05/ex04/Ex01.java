@@ -7,14 +7,15 @@ public class Ex01 {
 	public static void main(String[] args) {
 //		<문제>
 		Scanner sc =new Scanner(System.in);
-		System.out.println("====================================================================");
-		System.out.println("1.인풋 값을 받아서 방의 크기를 지정하고 7의 배수와 8의 배수 저장후 출력");
-		System.out.println("2.인풋 값을 받아서 방의 크기를 지정하고 1씩증가하도록 값을 넣는데 4의 배수만 빼고 저장후 출력");
-		System.out.println("3.인풋 값을 받아서 방의 크기를 지정하고 3의 배수만 저장하는데 그중 6의배수만 빼고 저장후 출력");
-		System.out.println("4.프로그램 종료");
-		System.out.println("====================================================================");
+		
   
 		do {
+			System.out.println("====================================================================");
+			System.out.println("1.인풋 값을 받아서 방의 크기를 지정하고 7의 배수와 8의 배수 저장후 출력");
+			System.out.println("2.인풋 값을 받아서 방의 크기를 지정하고 1씩증가하도록 값을 넣는데 4의 배수만 빼고 저장후 출력");
+			System.out.println("3.인풋 값을 받아서 방의 크기를 지정하고 3의 배수만 저장하는데 그중 6의배수만 빼고 저장후 출력");
+			System.out.println("4.프로그램 종료");
+			System.out.println("====================================================================");
 			System.out.println("위의 번호를 눌어서 입력해주세요 :");
 			int n = sc.nextInt();
 			
@@ -51,7 +52,7 @@ public class Ex01 {
 				int[] arr1 = new int[a];
 				int b = 0;
 				for(int i=0;i<a*100;i++) {
-					if(b==(a)){
+					if(b==a){
 						break;
 					} else if(i%4!=0) {
 						arr1[b] = i;
