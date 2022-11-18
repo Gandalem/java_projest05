@@ -22,6 +22,7 @@ public class Ex01 {
 <합계>
 <평균>
 		 */
+		
 		int sum =0;
 		for(int i=0;i<args.length;i++){
 			if(i!=0&&i!=5&&i!=10&&i!=15) {
