@@ -5,6 +5,7 @@ class A{
 		this(3); //자신의 객체의 정수 1개인 생성자 호출
 		System.out.println("A생선자 1");
 	}
+	
 	A(int a){
 		System.out.println("A생성자 2");
 	}
@@ -15,6 +16,7 @@ class B extends A { //자식 클래스는 생성자 첫 라인에 super 아니�
 		this(3); //자신의 객체의 정수 1개인 생성자 호출
 		System.out.println("B생선자 1");
 	}
+	
 	B(int a){
 //		super(); 생략됨
 		System.out.println("B생성자 2");
