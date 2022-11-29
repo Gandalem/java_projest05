@@ -1,4 +1,4 @@
-package chapter13.ex01;
+package chapter12.ex04.b;
 
 
 public interface A{ //인터페이스 이름: 첫자는 반드시 영문 대문자. //정식표헌
