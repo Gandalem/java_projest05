@@ -11,6 +11,13 @@ class A{
 			int[] arr= new int[] {1,2,3};
 			System.out.println(arr[5]);
 			Thread.sleep(1000);	
+			
+		}catch (ArithmeticException e) {
+			System.out.println("A클래스 예외내부처리중 예외발생");
+		}catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println("A클래스 예외내부처리중 예외발생");
+		}catch (InterruptedException e) {
+			System.out.println("A클래스 예외내부처리중 예외발생");
 		}catch (Exception e) {
 			System.out.println("A클래스 예외내부처리중 예외발생");
 		}
@@ -22,9 +29,14 @@ class B{
 //		bcd() 메소드 호출 : 예외 처리
 			try {
 				bcd();
-			} catch (Exception e) {
-				System.out.println("B클래스 예외전가 예외발생");
-				e.printStackTrace();
+			}catch (ArithmeticException e) {
+				System.out.println("A클래스 예외내부처리중 예외발생");
+			}catch (ArrayIndexOutOfBoundsException e) {
+				System.out.println("A클래스 예외내부처리중 예외발생");
+			}catch (InterruptedException e) {
+				System.out.println("A클래스 예외내부처리중 예외발생");
+			}catch (Exception e) {
+				System.out.println("A클래스 예외내부처리중 예외발생");
 			}
 	}
 	void bcd() throws Exception { //예외를 미루는것 : throws
