@@ -6,7 +6,7 @@ package chapter14.ex06;
 //		호출하는 곳에서 예외를 처리 해야한다.
 
 //1. 하위 메소드에서 직접예외를 처리하는방법
-class Aa{
+class A{
 	void abc() {
 		bcd(); //bcd();메소드 호출됨
 	}
@@ -21,7 +21,7 @@ class Aa{
 	}
 }
 //2. 예외를 호출하는 메소드로 전가:throws
-class Bb{
+class B{
 	void abc(){
 		try {
 			bcd();

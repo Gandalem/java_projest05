@@ -4,7 +4,9 @@ package chapter14.ex05;
 //	AutoCloseable 인터페이스를 구현 해야 한다.
 //		close() 메소드를 재정의 해야한다
 class A implements AutoCloseable{
+	
 	String resource;
+	
 	A (String resource){
 		this.resource = resource;
 	}

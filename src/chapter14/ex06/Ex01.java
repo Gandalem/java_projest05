@@ -1,7 +1,7 @@
 package chapter14.ex06;
 
 //1. 예외 발생할때 각메소드 내부에서 예외를 직접 처리함.
-class A{
+class Aa{
 	void abc() { //bcd() 호출
 		bcd(); //bcd메소드 호출
 	}
@@ -24,7 +24,7 @@ class A{
 	}
 }
 //예외를 전가 : 메소드를 호출하는쪽에서 예외를 처리하도록 : throws
-class B{
+class Bb{
 	void abc() {
 //		bcd() 메소드 호출 : 예외 처리
 			try {
