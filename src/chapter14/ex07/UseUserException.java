@@ -1,7 +1,5 @@
 package chapter14.ex07;
 
-import javax.swing.text.html.MinimalHTMLWriter;
-
 //사용자 정의 예외 : 일반예외 2개 생성
 
 //1. 점수가 음수면 예외 발생 시키는 사용자 정의 예외
